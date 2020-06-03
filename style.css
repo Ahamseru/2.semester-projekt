@@ -1,0 +1,192 @@
+/* Theme Name: Nr. Søby Cykelklub Tema
+Author: Ahmad Azzam
+Version: 1.0
+*/
+
+/* Import af egne fonte */
+
+@import url("https://use.typekit.net/sxk2syg.css");
+
+/* Html side styling */
+html{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+/* Body styling */
+body {
+	background: #5ec8cf;
+	font-family: 'Roboto', sans-serif;
+	max-width: 100%;
+	padding-bottom: 65px;
+}
+
+/* Titel styling */
+h1,
+h2,
+h3{
+	font-family: cooper-black-std, serif;
+	font-weight: 400;
+	font-style: normal;
+	padding-bottom: 40px;
+}
+
+/* Brødtekst styling */
+p{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/* BMI sidens beregner */
+#bmi-section{
+	
+	text-align: center;
+	margin-top: 6%;
+
+}
+
+/* BMI sidens billede */
+#bmi-img{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 500px;
+	height: 500px;
+	margin-top: 10%;
+}
+
+
+/* Kontaktsidens tekst */
+#contact{
+	
+	padding-top: 1em;
+	padding-bottom: 3em;
+
+}
+
+
+/* Menu og header styling start */
+
+header {
+	width: 100%;
+	height: auto;
+	background: #b4061f;
+	height: 80px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	background-color: #b4061f;
+	width: 100%;
+	color: black;
+	font-weight: bold;
+	margin-left: 1em;
+	
+}
+
+
+.navbar .container {
+	height: 90px;
+}
+
+#pic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 80px;
+	max-width: 80px;
+	
+}
+
+.navbar-expand-md .navbar-collapse {
+	justify-content: flex-end;	
+}
+
+.navbar-collapse{
+	flex-grow: 0;
+}
+
+a.navbar-brand {
+	color: #cfbbb0;
+}
+/* Menu og header styling slut */
+
+
+/* Kolonne størrelse på siden */
+.container {
+	max-width: 1200px;
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+
+#menu-top-menu a {
+	font-size: 18px;
+	color: #000;
+	font-family: 'Baloo 2', cursive;
+}
+
+
+footer {
+	background-color: #b4061f;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	
+}
+
+
+footer div {
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.menu-top-menu-container ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	height: 80px;
+}
+
+/* Logo styling */
+.custom-logo {
+	width: auto;
+	height: 60px;
+}
+
+
+/* Styling til mobil og tablets (Breakpoint) */
+@media only screen and (max-width: 767px) {
+	.navbar-collapse {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: #000000;
+		top: 80px;
+	}
+
+	.navbar .container {
+		padding: 0;
+		height: 60px;
+	}
+
+	.navbar-nav {
+		padding: 0 20px;
+	}
+
+	#menu-hovedmenuen{
+		background-color: #b4061f;
+	}
+
+	.container {
+		padding: 0 20px;
+	}
+}
