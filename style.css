@@ -101,19 +101,28 @@ header {
 	justify-content: flex-end;	
 }
 
-.navbar-collapse{
-	flex-grow: 0;
-}
 
 a.navbar-brand {
 	color: #cfbbb0;
 }
 /* Menu og header styling slut */
 
+/* Facebook icon styling */
+
+#fb-icon:hover{
+	opacity: 0.3;
+}
+
+
+#fb-icon{
+	width: 40px;
+	height: 40px;
+	margin-left: 1em;
+}
 
 /* Kolonne størrelse på siden */
 .container {
-	max-width: 1200px;
+	max-width: 1300px;
 }
 
 .card:hover {

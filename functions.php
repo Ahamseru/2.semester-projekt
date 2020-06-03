@@ -54,7 +54,7 @@ add_theme_support('post-thumbnails');
 register_nav_menus(
 	array(
 		'top-menu' => __('Top Menu', 'theme'),
-        'bund-menu' => __('Bund menu', 'theme'),
+        'social-menu' => __('Social Menu', 'theme'),
 
 	)
 );
