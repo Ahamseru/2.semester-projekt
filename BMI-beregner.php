@@ -22,9 +22,6 @@ Template Name: BMI beregner
                 //Beregner BMI
                 var BMI = weight / Math.pow(height / 100, 2);
 
-                //Udskriver resultatet til (med to decimaler)
-                document.getElementById("output").innerText = BMI.toFixed(2);
-
                 //Gemmer resultatet i "output" for at kunne sammenligne med følgende værdier. Herefter udskrives den korrekte BMI værdi, og den korresponderende tekst dertil.
                 var output = BMI.toFixed(1);
                 if (output < 18.5)
@@ -35,6 +32,10 @@ Template Name: BMI beregner
                     document.getElementById("comment").innerText = "Overvægtig";
                 else if (output > 30)
                     document.getElementById("comment").innerText = "Svært overvægtig";
+
+            
+                //Udskriver resultatet til (med to decimaler)
+                document.getElementById("output").innerText = BMI.toFixed(2);
 
             }
         </script>
