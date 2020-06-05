@@ -5,64 +5,68 @@ Version: 1.0
 
 /* Import af egne fonte */
 
-@import url("https://use.typekit.net/sxk2syg.css");
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 /* Html side styling */
-html{
-	max-width: 100%;
+html {
 	overflow-x: hidden;
 }
 
 /* Body styling */
 body {
-	background: #5ec8cf;
-	font-family: 'Roboto', sans-serif;
+	background: #57B9E1;
+	font-family: 'Archivo', sans-serif;
 	max-width: 100%;
-	padding-bottom: 65px;
+	padding-bottom: 50px;
+	margin: 0;
 }
 
 /* Titel styling */
 h1,
 h2,
-h3{
-	font-family: cooper-black-std, serif;
-	font-weight: 400;
-	font-style: normal;
-	padding-bottom: 40px;
+h3 {
+	font-family: 'Archivo Black', sans-serif;
+	padding-bottom: 1em;
 }
 
 /* Brødtekst styling */
-p{
+p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
 
+/* BMI SIDE STYLING START */
+
 /* BMI sidens beregner */
-#bmi-section{
-	
+#bmi-section {
+
 	text-align: center;
-	margin-top: 6%;
+	margin-top: 50px;
 
 }
 
 /* BMI sidens billede */
-#bmi-img{
+#bmi-img {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	width: 500px;
-	height: 500px;
-	margin-top: 10%;
+	width: 100%;
+	max-height: 500px;
+	margin-top: 50px;
+	object-fit: contain;
 }
 
-
-/* Kontaktsidens tekst */
-#contact{
-	
-	padding-top: 1em;
-	padding-bottom: 3em;
-
+.row {
+	margin: auto;
+	overflow: hidden;
+	max-width: 1150px;
+	background-color: #6FC7EC;
+	border: 3px solid black;
+	margin-top: 40px;
+	padding-bottom: 1em;
 }
+
+/* BMI SIDE STYLING SLUT */
 
 
 /* Menu og header styling start */
@@ -76,11 +80,9 @@ header {
 
 .navbar-dark .navbar-nav .nav-link {
 	background-color: #b4061f;
-	width: 100%;
 	color: black;
 	font-weight: bold;
-	margin-left: 1em;
-	
+
 }
 
 
@@ -88,47 +90,34 @@ header {
 	height: 90px;
 }
 
-#pic{
+#pic {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	max-height: 80px;
 	max-width: 80px;
-	
+
 }
 
 .navbar-expand-md .navbar-collapse {
-	justify-content: flex-end;	
+	justify-content: flex-end;
+
 }
 
 
 a.navbar-brand {
 	color: #cfbbb0;
 }
-/* Menu og header styling slut */
 
-/* Facebook icon styling */
-
-#fb-icon:hover{
-	opacity: 0.3;
+.navbar {
+	height: 80px;
 }
 
-
-#fb-icon{
-	width: 40px;
-	height: 40px;
-	margin-left: 1em;
+#menu-item-91 a {
+	background-color: #41AB0D;
+	color: white;
+	border-radius: 5px;
 }
-
-/* Kolonne størrelse på siden */
-.container {
-	max-width: 1300px;
-}
-
-.card:hover {
-	cursor: pointer;
-}
-
 
 #menu-top-menu a {
 	font-size: 18px;
@@ -136,7 +125,40 @@ a.navbar-brand {
 	font-family: 'Baloo 2', cursive;
 }
 
+.dropdown-menu{
+	border: 3px solid black;
+}
 
+.dropdown-item, .dropdown-menu{
+	background-color: #b4061f;
+	font-weight: bold;
+}
+
+.dropdown-item:hover{
+
+	color:white;
+	background: none;
+}
+
+/* Menu og header styling slut */
+
+/* Facebook icon styling start */
+
+#fb-icon:hover {
+	opacity: 0.3;
+}
+
+
+#fb-icon {
+	width: 40px;
+	height: 40px;
+	margin-left: 1em;
+}
+
+/* Facebook icon styling slut */
+
+
+/* Footer styling start */
 footer {
 	background-color: #b4061f;
 	color: white;
@@ -145,7 +167,7 @@ footer {
 	position: fixed;
 	bottom: 0;
 	z-index: 1;
-	
+
 }
 
 
@@ -154,6 +176,8 @@ footer div {
 	font-weight: bold;
 }
 
+/* Footer styling slut */
+
 
 .menu-top-menu-container ul {
 	list-style: none;
@@ -161,15 +185,13 @@ footer div {
 	padding: 0;
 }
 
-.navbar {
-	height: 80px;
-}
-
 /* Logo styling */
 .custom-logo {
 	width: auto;
 	height: 60px;
 }
+
+
 
 
 /* Styling til mobil og tablets (Breakpoint) */
@@ -191,11 +213,39 @@ footer div {
 		padding: 0 20px;
 	}
 
-	#menu-hovedmenuen{
+	#menu-hovedmenuen {
 		background-color: #b4061f;
 	}
 
 	.container {
 		padding: 0 20px;
 	}
+
+	footer div {
+		font-size: 0.8em;
+
+	}
+
+	.navbar-dark .navbar-toggler {
+		padding-right: 3em;
+		border: none;
+	}
+
+	#bmi-img {
+		max-width: 400px;
+		max-height: 400px;
+	}
+
+
+}
+
+@media only screen and (max-width: 388px) {
+
+	footer div {
+
+		font-size: 0.6em;
+
+	}
+
+
 }

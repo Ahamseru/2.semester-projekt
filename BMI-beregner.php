@@ -8,7 +8,7 @@ Template Name: BMI beregner
 
 <div class="row">
 
-    <div class="col-md-6" id="bmi-section">
+    <section class="col-md-6" id="bmi-section">
 
 
         <title>BMI Beregner</title>
@@ -54,17 +54,17 @@ Template Name: BMI beregner
 
         <h2>Du er: <span id="comment"> ?</span> </h2>
 
-    </div>
+    </section>
 
 
 
 
-    <div class="col-md-6">
+    <section class="col-md-6">
 
-        <img src="http://ahma03242.apache.eadania.dk/wp-content/uploads/2020/06/COLOURBOX6485663-1-scaled.jpg"
+        <img src="http://ahma03242.apache.eadania.dk/wp-content/uploads/2020/06/COLOURBOX6485663-1-scaled-1.jpg"
             id="bmi-img" alt="">
 
-    </div>
+    </section>
 
 </div>
 
