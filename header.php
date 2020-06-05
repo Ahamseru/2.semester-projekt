@@ -12,8 +12,6 @@
 
     <header class="sticky-top">
 
-
-
         <nav class="navbar navbar-dark navbar-expand-md" role="navigation">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -71,8 +69,5 @@
                 </a>
 
             </div>
-
-
-
         </nav>
     </header>

@@ -35,6 +35,34 @@ p {
 	margin-bottom: 0;
 }
 
+/* Cover billede styling start */
+
+.box{
+	position: relative;
+	display: inline-block;
+	height: 500px;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	align-items: center; 
+}
+.box .text{
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	text-align: center;
+	color: #fff;
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 55px;
+	text-shadow: 0px 2px 7px #000;
+}
+
+
+
+/* Cover billede styling slut */
+
 /* BMI SIDE STYLING START */
 
 /* BMI sidens beregner */
@@ -76,6 +104,9 @@ header {
 	height: auto;
 	background: #b4061f;
 	height: 80px;
+	position: sticky;
+	top: 0;
+	z-index: 1020;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -84,7 +115,6 @@ header {
 	font-weight: bold;
 
 }
-
 
 .navbar .container {
 	height: 90px;
@@ -125,18 +155,19 @@ a.navbar-brand {
 	font-family: 'Baloo 2', cursive;
 }
 
-.dropdown-menu{
+.dropdown-menu {
 	border: 3px solid black;
 }
 
-.dropdown-item, .dropdown-menu{
+.dropdown-item,
+.dropdown-menu {
 	background-color: #b4061f;
 	font-weight: bold;
 }
 
-.dropdown-item:hover{
+.dropdown-item:hover {
 
-	color:white;
+	color: white;
 	background: none;
 }
 
