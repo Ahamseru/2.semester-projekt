@@ -34,7 +34,7 @@ Template Name: BMI beregner
                     document.getElementById("comment").innerText = "Svært overvægtig";
 
             
-                //Udskriver resultatet til (med to decimaler)
+                //Udskriver resultatet (med to decimaler)
                 document.getElementById("output").innerText = BMI.toFixed(2);
 
             }
